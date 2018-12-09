@@ -1,0 +1,21 @@
+{
+  "name": "custom-server-nextjs",
+  "version": "1.0.0",
+  "description": "custom server next js",
+  "main": "index.js",
+  "repository": "https://github.com/ahmadaidil/custom-server-nextjs.git",
+  "author": "Ahmad Aidil <aidil@volantis.io>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node .",
+    "build": "next build",
+    "start": "NODE_ENV=production node ."
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "next": "^7.0.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}
